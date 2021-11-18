@@ -1,0 +1,20 @@
+html {
+  font-size: 62.5%;
+
+  &.sr .load-hidden {
+    visibility: hidden;
+  }
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+#bmc-wbtn {
+  background: rgb(249, 168, 38) !important;
+}
+
+a:focus{
+  box-shadow: none !important;
+}

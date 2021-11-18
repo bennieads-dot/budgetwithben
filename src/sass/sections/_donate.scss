@@ -1,0 +1,58 @@
+#donate {
+  //min-height: 2vh;
+  //height: 2vh;
+  //display: flex;
+  //align-items: center;
+  //border-bottom: 0px;
+  //background: $white-color;
+  //font-weight: 200;
+  //color: $dark-blue-text;
+  //padding: 0rem 5.6rem;
+  //margin-bottom: 3.2rem;
+  //margin-top: 5.2rem;
+  //top: 0;
+  //left: 0;
+  //bottom: 0;
+  //right: 0;
+  //z-index: -1;
+  padding: 0rem;
+  margin: 3rem;
+  // Set position sticky so the jumbotron stays fixed while you scroll.
+  // position: sticky;
+  // If you want to set a background image on the hero section, uncomment these with your custom image
+  /* background: url("/src/assets/[your-image].png");
+  background-position: center;
+  background-size: cover; */
+  .coffee {
+    background-color: #f9a826;
+    color: $dark-blue-text;
+    border: none;
+    border-radius: 16px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-weight: bold !important;
+  }
+
+  .coffee:hover {
+    background-color: #f7a015;
+  }
+
+  @include respond(phone) {
+    padding: 0rem $default-font-size;
+  }
+
+  .bmc-btn {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+
+  @media screen and (min-width: 800px) {
+    .bmc-btn:hover {
+      color: black;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    }
+  }
+}
